@@ -12,7 +12,7 @@ float sensorValue = 42.7;
 
 // --- Handlers pour les fichiers ---
 void handleRoot() {
-  File file = LittleFS.open("../web/index.html", "r");
+  File file = LittleFS.open("/web/index.html", "r");
   if (!file) {
     server.send(500, "text/plain", "index.html not found");
     return;
@@ -23,7 +23,7 @@ void handleRoot() {
 }
 
 void handleCSS() {
-  File file = LittleFS.open("../web/style.css", "r");
+  File file = LittleFS.open("/web/style.css", "r");
   if (!file) {
     server.send(404, "text/plain", "style.css not found");
     return;
