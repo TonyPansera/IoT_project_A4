@@ -31,20 +31,6 @@ Objectif de cette partie : faire un mini système IoT avec **deux Heltec LoRa 32
 
 ---
 
-## Arborescence (exemple)
-
-part4/
-├─ sender/
-│ └─ sender.ino
-├─ receiver/
-│ └─ receiver_webserver.ino
-└─ web/
-├─ index.html
-├─ style.css
-└─ app.js
-
----
-
 ## Dépendances
 Dans Arduino IDE :
 - Board package Heltec ESP32 (quick start Heltec).
