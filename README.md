@@ -37,23 +37,4 @@ Dans Arduino IDE :
 - La lib LoRa/SX1262 utilisée au TP (ex : Heltec LoRa lib ou RadioLib).
 - Côté serveur Wi-Fi : `WiFi.h` + `WebServer.h` (ou `ESPAsyncWebServer` si version async).
 
----
-
-## Paramètres LoRa
-Les **deux nodes doivent avoir exactement les mêmes paramètres** :
-- fréquence (ex: 868 MHz en Europe)
-- spreading factor (SF)
-- bandwidth (BW)
-- coding rate (CR)
-- sync word
-
-Sinon → pas de réception.
-
----
-
-## Paramètres Wi-Fi (Node B)
-Dans le code :
-```cpp
-const char* ssid = "YOUR_SSID";
-const char* password = "YOUR_PASSWORD";
 
