@@ -1,3 +1,6 @@
+#pragma once
+#include <pgmspace.h>
+const char style_css[] PROGMEM = R"rawliteral(
 body {
     margin: 0;
     padding: 0;
@@ -73,3 +76,4 @@ footer {
     padding: 10px;
     font-size: 14px;
 }
+)rawliteral";

@@ -1,3 +1,7 @@
+#pragma once
+#include <pgmspace.h>
+
+const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -38,3 +42,4 @@
 
 </body>
 </html>
+)rawliteral";
