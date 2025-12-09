@@ -67,6 +67,20 @@ main {
     color: #555;
 }
 
+.status-bar {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.status-bar strong {
+    color: #d9534f; /* Rouge léger pour attirer l'œil */
+}
+
 /* Footer */
 footer {
     margin-top: auto;
